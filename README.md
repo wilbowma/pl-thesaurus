@@ -1,4 +1,4 @@
-A Thesaurus for technical words found in Programming Languages
+A Thesaurus Programming Languages Jargon
 ==
 
 For now, this is list of synonyms for technical words that I want to stop
