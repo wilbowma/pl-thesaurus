@@ -8,7 +8,7 @@ Maybe one day I'll turn it into structured data that a tool can consume.
 Thesaurus
 ==
 
-- dependent types, type dependency, functor in a fibred category (?) 
+- dependent types, type dependency
 - certifying compilation, translation validation
 - Galois connection, adjunction,
 - Monad, (Kleisli) triple, closure operator
