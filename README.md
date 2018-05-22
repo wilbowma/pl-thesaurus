@@ -5,6 +5,8 @@ For now, this is list of synonyms for technical words that I want to stop
 keeping in my head and allow people to publicly contribute to/comment on.
 Maybe one day I'll turn it into structured data that a tool can consume.
 
+There's also a wiki for discussion: https://github.com/wilbowma/pl-thesaurus/wiki
+
 Thesaurus
 ==
 
