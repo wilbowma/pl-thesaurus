@@ -10,3 +10,10 @@ Thesaurus
 
 - dependent types, type dependency, functor in a fibred category (?) 
 - certifying compilation, translation validation
+- Galois connection, adjunction,
+- Monad, (Kleisli) triple, closure operator
+- Comonad, interior operator
+- Embedding-projection pair, Galois Insertion/Injection, Coreflection
+- Galois Surjection, Reflection
+- Concretization function, upper adjoint, right adjoint
+- Abstraction function, lower adjoint, left adjoint
