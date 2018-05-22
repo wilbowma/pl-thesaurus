@@ -17,3 +17,4 @@ Thesaurus
 - Galois Surjection, Reflection
 - Concretization function, upper adjoint, right adjoint
 - Abstraction function, lower adjoint, left adjoint
+- ⊤⊤-closure, ⊥⊥-closure, biorthogonality
