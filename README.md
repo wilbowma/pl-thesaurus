@@ -10,6 +10,8 @@ There's also a wiki for discussion: https://github.com/wilbowma/pl-thesaurus/wik
 Thesaurus
 ==
 
+- dependent function type, pi type, dependent product type, universal quantifier
+- dependent pair type, sigma type, dependent sum type, existential quantifier
 - dependent types, type dependency
 - certifying compilation, translation validation
 - Galois connection, adjunction,
