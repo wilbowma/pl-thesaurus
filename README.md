@@ -17,6 +17,7 @@ Thesaurus
 - pair (type), product (type), tuple (type)
 - sum (type), disjoint union (type), tagged union (type), variant (type) 
 - dependent types, type dependency
+  - The latter form can be confusing because dependency has been used to refer to information flow, as in the Dependency Core Calculus.
 - certifying compilation, translation validation
 - Galois connection, adjunction,
 - Monad, (Kleisli) triple, closure operator, Pfenning-Davies S4 possibility modality
