@@ -19,8 +19,8 @@ Thesaurus
 - dependent types, type dependency
 - certifying compilation, translation validation
 - Galois connection, adjunction,
-- Monad, (Kleisli) triple, closure operator, Pfenning-Davies S4 necessity modality
-- Comonad, interior operator, Pfenning-Davies S4 possibility modality
+- Monad, (Kleisli) triple, closure operator, Pfenning-Davies S4 possibility modality
+- Comonad, interior operator, Pfenning-Davies S4 necessity modality
 - Embedding-projection pair, Galois Insertion/Injection, Coreflection
 - Galois Surjection, Reflection
 - Concretization function, upper adjoint, right adjoint
