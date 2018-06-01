@@ -12,7 +12,7 @@ Thesaurus
 
 - dependent function type, pi type, dependent product type, universal quantifier
   - This can be particularly confusing since, in non-dependent settings, product type can mean pair.
-- dependent pair type, sigma type, dependent sum type, existential quantifier
+- dependent pair type, sigma type, dependent sum type, existential quantifier, subset type, refinement type
   - This can be particularly confusing since, in non-dependent settings, sum type can mean tagged union.
 - pair (type), product (type), tuple (type)
 - sum (type), disjoint union (type), tagged union (type), variant (type) 
