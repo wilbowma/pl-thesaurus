@@ -37,6 +37,7 @@ There's also a wiki for discussion: https://github.com/wilbowma/pl-thesaurus/wik
   - In order theory, the left adjoint of a Galois connection is called the *lower adjoint*
   - In abstract interpretation, the left adjoint of a Galois connection is called the *abstraction function*
 - ⊤⊤-closure, ⊥⊥-closure, biorthogonality
+- axiom K, equivalence reflection, propositional extensionality
 
 # References
 
