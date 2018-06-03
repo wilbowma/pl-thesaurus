@@ -13,6 +13,16 @@ There's also a wiki for discussion: https://github.com/wilbowma/pl-thesaurus/wik
   - This can be particularly confusing since, in non-dependent settings, product type can mean pair.
 - dependent pair type, sigma type, dependent sum type, existential quantifier, subset type, refinement type
   - This can be particularly confusing since, in non-dependent settings, sum type can mean tagged union.
+    This is not as confusing as it may first appear, since we can implement sum
+    types as a pair of a tag plus its computational content, whose types depends
+    on its tag---that is, sum types can be implemented with dependent pairs as
+    long as we also have `boolean`, `if`, and large elimination:
+    ```
+    A + B = Sigma (x: bool) (if x then A else B)'
+    inl y = (true, y)
+    inr z = (false, z)
+    case x of { inl y -> M | inr z -> N } = if (pi_1 x) then (M[pi_2 x]) else (N[pi_2 x])
+    ```
 - pair (type), product (type), tuple (type)
 - sum (type), disjoint union (type), tagged union (type), variant (type) 
 - dependent types, type dependency
