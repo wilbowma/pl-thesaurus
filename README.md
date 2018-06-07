@@ -19,11 +19,9 @@ There's also a wiki for discussion: https://github.com/wilbowma/pl-thesaurus/wik
     (M_1,M_2) = lambda x. if x then M_1 else M_2
     ```
 - dependent pair type, sigma type, dependent sum type, existential quantifier, subset type, refinement type
-  - This can be particularly confusing since, in non-dependent settings, sum type can mean tagged union.
-    This is not as confusing as it may first appear, since we can implement sum
-    types as a pair of a tag plus its computational content, whose types depends
-    on its tag---that is, sum types can be implemented with dependent pairs as
-    long as we also have `boolean`, `if`, and large elimination:
+  - This may be at odds with one's intuition, since, in non-dependent settings, sum type can mean tagged union.
+    It may help to note that we can implement sum types as a pair of a tag plus its computational content, whose types depends
+    on its tag---that is, sum types can be implemented with dependent pairs (with `bool`, `if`, and large elimination).
     ```
     A + B = Sigma (x: bool) (if x then A else B)'
     inl y = (true, y)
