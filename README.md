@@ -10,7 +10,14 @@ There's also a wiki for discussion: https://github.com/wilbowma/pl-thesaurus/wik
 # Thesaurus
 
 - dependent function type, pi type, dependent product type, universal quantifier
-  - This can be particularly confusing since, in non-dependent settings, product type can mean pair.
+  - This may be at odds with one's intuition, since, in non-dependent settings, product type can mean pair.
+    It may help to note that we can implement (lazy) "product types" as a function from a tag to either the first or second component, whose type depends on the tag---that is, product types can be implemented with as a dependent functions (with `bool`, `if`, and large elimination).
+    ```
+    A * B = Pi (x : bool) (if x then A else B)
+    pi_1 M = M true
+    pi_2 M = M false
+    (M_1,M_2) = lambda x. if x then M_1 else M_2
+    ```
 - dependent pair type, sigma type, dependent sum type, existential quantifier, subset type, refinement type
   - This can be particularly confusing since, in non-dependent settings, sum type can mean tagged union.
     This is not as confusing as it may first appear, since we can implement sum
