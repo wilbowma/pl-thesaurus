@@ -29,7 +29,7 @@ There's also a wiki for discussion: https://github.com/wilbowma/pl-thesaurus/wik
     case x of { inl y -> M | inr z -> N } = if (pi_1 x) then (M[pi_2 x]) else (N[pi_2 x])
     ```
 - pair (type), product (type), tuple (type)
-- sum (type), disjoint union (type), tagged union (type), variant (type) 
+- sum (type), disjoint union (type), tagged union (type), variant (type), coproduct (type)
 - dependent types, type dependency
   - The latter form can be confusing because dependency has been used to refer to information flow, as in the Dependency Core Calculus.
 - certifying compilation, translation validation
