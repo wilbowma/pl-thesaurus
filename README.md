@@ -51,6 +51,10 @@ There's also a wiki for discussion: https://github.com/wilbowma/pl-thesaurus/wik
 - Left adjoint (category theory)
   - In order theory, the left adjoint of a Galois connection is called the *lower adjoint*
   - In abstract interpretation, the left adjoint of a Galois connection is called the *abstraction function*
+- polymorphic instantiation, impredicative polymorphism, impredicativity
+  - This refers to being able to write types like `List (forall a. a -> a)`
+  - While in common usage, 'impredicative polymorphism' and especially 'impredicativity' can be confused with 'impredicative universes', so is discouraged by some
+- impredicative universes, impredicativity
 - ⊤⊤-closure, ⊥⊥-closure, biorthogonality
 - axiom K, equivalence reflection, propositional extensionality
 
